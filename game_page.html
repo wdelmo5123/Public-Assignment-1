@@ -1,0 +1,51 @@
+<html>
+
+    <head>
+        <title>Class Website</title>
+        <link rel="stylesheet" href="pagedesigns.css">
+        <script src="game.js"defer></script>
+    </head>
+
+    <body id="gamebody">
+
+        <header id="headfoot">
+            <h1>Games</h1>
+        </header>
+
+        <nav id="navigation">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="gamepage.html">Games</a></li>
+            <li><a href="contactpage.html">Contact Us</a></li>
+        </nav>
+
+        <h2>Rock, Paper, Scissors</h2>
+
+        <form name="rockpaperscissors" onsubmit="display(); computerfunc(); rock(); paper(); scissors(); return false">
+            <label for="game">Choose between:</label>
+            <select name="game" id="game">
+                <option value="Rock">Rock</option>
+                <option value="Paper">Paper</option>
+                <option value="Scissors">Scissors</option>
+            </select>
+            <input type="submit">
+        </form>
+
+        <br>
+
+        <div class="boxes" id="playerbox">
+            <h2><b>You Chose:</b></h2>
+            <p id="resultplayer" class="player"></p>
+        </div>
+
+        <aside class="boxes" id="computerbox">
+            <h2><b>Computer Chose:</b></h2>
+            <p id="resultcomputer" class="computer"></p>
+        </aside>
+
+        <footer id="headfoot">
+            <h3>Copyright of wdelmo</h3>
+        </footer>
+
+    </body>
+
+</html>

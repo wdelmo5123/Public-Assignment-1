@@ -1,0 +1,58 @@
+<html>
+
+    <head>
+        <title>Class Website</title>
+        <link rel="stylesheet" href="pagedesigns.css">
+    </head>
+
+    <body id="contactbody">
+
+        <header id="headfoot">
+            <h1>Contact Us</h1>
+        </header>
+
+        <nav id="navigation">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="gamepage.html">Games</a></li>
+            <li><a href="contactpage.html">Contact Us</a></li>
+        </nav>
+
+        <h2>For Any Questions:</h2>
+
+        <form name="bigtextform" onsubmit="return(validatebox())">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+
+            <br>
+
+            <label for="bigtext">Reason:</label>
+            <textarea id="bigtext" name="bigtext" rows="4" cols="50" required></textarea>
+
+            <br>
+            
+            <input type="submit">
+        </form>
+
+        <footer id="headfoot">
+            <h3>Copyright of wdelmo</h3>
+        </footer>
+
+        <script type="text/javascript">
+            function validatebox() {
+                var validation = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+                if (validation.test(document.bigtextform.bigtext.value)) {
+                    alert("Error: Special Character Detected!")
+                } else {
+                    bigtextform.action="successform.html"
+                }
+            } 
+        </script>
+
+    </body>
+
+</html>

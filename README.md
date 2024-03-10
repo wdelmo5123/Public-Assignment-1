@@ -1,0 +1,1 @@
+This is a public version for assignment 1 for my web applications course. This is to be used for portfolio use only.

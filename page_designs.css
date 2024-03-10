@@ -1,0 +1,75 @@
+#homebody {
+    background-color:seashell;
+}
+#gamebody {
+    background-color:honeydew;
+}
+#contactbody {
+    background-color:seashell;
+}
+
+
+#headfoot {
+    text-align: center;
+    background-color:lightblue;
+}
+
+
+#navigation {
+    text-align: center;
+    background-color:lightcyan ;
+}
+#navigation li {
+    display: inline;
+    position: relative;
+}
+#navigation li:hover {
+    background-color: cornflowerblue;
+}
+
+.main {
+    background-color:darkseagreen;
+    display: inline-block;
+    width: 60%;
+    border: solid;
+    border-color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+#sub {
+    margin: 10px;
+}
+
+
+#sidebar {
+    float: right;
+    width: 20%;
+    text-align: center;
+    background-color: hotpink;
+}
+
+#logo {
+    float: right;
+}
+
+.contactbutton:hover {
+    background-color: yellow;
+}
+
+.boxes {
+    background-color:teal;
+    color: white;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
+
+#computerbox {
+    float: right;
+}
